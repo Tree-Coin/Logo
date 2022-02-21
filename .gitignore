@@ -2,8 +2,12 @@
 
 __pycache__/
 2021*/
+2022*/
+logos/
+previews/
 trials/
 
 *.zip
 logo_generator2.py
+__logo_generator2.py
 svg_turtle.py

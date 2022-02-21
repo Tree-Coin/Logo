@@ -169,4 +169,4 @@ def get_current_season():
 
     # return next(season for season, (start, end) in seasons
     #         if start <= now <= end)
-    return "summer"
+    return "autumn"

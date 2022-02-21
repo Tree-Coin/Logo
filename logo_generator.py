@@ -296,7 +296,12 @@ def save(window):
     # window.getcanvas().postscript(file=date + "/" + files_path + file_name + ".svg")
 
     # name = asksaveasfile(mode='w', defaultextension='.ps')
+    # Save PostScript file
+    # ps = window.getcanvas().postscript(file=sources_path + file_name + ".ps", colormode='color')
     ps = canvas.postscript(file = sources_path + file_name + ".ps", colormode='color')
+    # Save EPS file
+    # img = Image.open(sources_path + file_name + ".eps")
+    # s.getcanvas().postscript(file=sources_path + file_name + ".eps")
     eps = canvas.postscript(file = files_path + file_name + ".eps", colormode='color')
     print("Saved img PNG: ", files_path + file_name + ".eps")
     im = Image.open(sources_path + file_name + ".ps")
@@ -306,14 +311,9 @@ def save(window):
     print("Saved img PNG: ", files_path + file_name + ".png")
     im.save(files_path + file_name + ".png")
     im.close()
+
     # ps = canvas.postscript(colormode='color')
     # img = Image.open(io.BytesIO(ps.encode('utf-8')))
-
-    # Save PostScript file
-    # ps = window.getcanvas().postscript(file=sources_path + file_name + ".ps", colormode='color')
-    # Save EPS file
-    # img = Image.open(sources_path + file_name + ".eps")
-    # s.getcanvas().postscript(file=sources_path + file_name + ".eps")
 
     # Save JPG file
     # img.save(files_path + file_name + ".png", format="PNG")
@@ -375,7 +375,7 @@ def main():
         # Draw the roots
         # -----------------------------------
         draw_roots(tree_object, window)
-        save(window)
+        # save(window)
 
         #
         # TREE
@@ -423,3 +423,4 @@ s60 = 216000
 # img.save("logo.jpg")
 
 main()
+turtle.done()
