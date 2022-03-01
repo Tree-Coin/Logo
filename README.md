@@ -4,6 +4,12 @@
 This script uses [Python Turtle](https://docs.python.org/3/library/turtle.html) to draw the Tree Coin logo.<br />
 Colours are based on the current season and are divided as follow:
 
+
+### Roots colours
+| RGB `250` | RGB `251` | RGB `252` | RGB `253` | RGB `254` | RGB `255` |
+|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| ![#fafafa](https://via.placeholder.com/15/fafafa/000000?text=+) `#fafafa` | ![#fbfbfb](https://via.placeholder.com/15/fbfbfb/000000?text=+) `#fbfbfb` | ![#fcfcfc](https://via.placeholder.com/15/fcfcfc/000000?text=+) `#fcfcfc` | ![#fdfdfd](https://via.placeholder.com/15/fdfdfd/000000?text=+) `#fdfdfd` | ![#fefefe](https://via.placeholder.com/15/fefefe/000000?text=+) `#fefefe` | ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `#ffffff` |
+
 ### Branch colours
 | Winter    | Spring    | Summer    | Autumn    |
 |:---------:|:---------:|:---------:|:---------:|
