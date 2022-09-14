@@ -1,4 +1,4 @@
-<img align="right" width="200" src="https://treecoin.online/wp-content/uploads/2021/07/spring_250.png">
+<img align="right" width="200" src="https://github.com/Tree-Coin/Logo/blob/4c765d5d825deede0bd3869a9806204537ef713a/tree_coin_logo.png">
 
 # Tree Coin logo drawer
 This script uses [Python Turtle](https://docs.python.org/3/library/turtle.html) to draw the Tree Coin logo.<br />
